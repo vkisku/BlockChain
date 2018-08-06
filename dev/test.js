@@ -1,3 +1,7 @@
+/*
+`	File to test the work
+*/
+
 const Blockchain=require('./blockchain');
 const bitcoin=new Blockchain();
 bitcoin.CreateNewBlock(234,"sdgwet3tg34h34h","cwegtwe3y34");
