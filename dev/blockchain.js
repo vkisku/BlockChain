@@ -7,6 +7,8 @@ const sha256=require('sha256');
 function Blockchain(){ //Constructor Function for Block Chaining.
 	this.chain=[]; // To Store the Chain of blocks
 	this.pendingTransaction=[]; // To store Transactions
+
+	this.CreateNewBlock(500,"AnyHash","AnyHash");
 }
 Blockchain.prototype.CreateNewBlock = function(nonce,previousBlockHash,hash) {// Function to Create New Block
 	//New Block.

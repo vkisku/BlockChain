@@ -4,7 +4,8 @@
 
 const Blockchain=require('./blockchain');
 const bitcoin=new Blockchain();
-bitcoin.CreateNewBlock(234,"sdgwet3tg34h34h","cwegtwe3y34");
+console.log(bitcoin);
+/*bitcoin.CreateNewBlock(234,"sdgwet3tg34h34h","cwegtwe3y34");
 bitcoin.CreateNewTransaction(300,"Vikash","Kisku");
 bitcoin.CreateNewTransaction(400,"Vikash","Kisku");
 bitcoin.CreateNewBlock(53697,"vsdbsdbsd4h","sdbsbsdbh34");
@@ -28,3 +29,4 @@ const currData=[
 //bitcoin.CreateNewBlock(5346,"sfnfandfmsBn","jsdkdkdjdsga");
 console.log(bitcoin.hashBlock("OINAISDFN09N09ASDNF90N90ASNDF",currData,53697));
 //console.log(bitcoin.proofOfWork("OINAISDFN09N09ASDNF90N90ASNDF",currData));
+*/
